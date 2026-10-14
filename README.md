@@ -326,6 +326,3 @@ curl -I http://localhost:8000/up      # header Server: Caddy menandakan FrankenP
 | `npm ci` gagal di CI/Docker | `package-lock.json` belum di-commit | jalankan `npm install` lalu commit `package-lock.json` |
 | `composer install` gagal di CI/Docker | `composer.lock` belum di-commit | commit `backend/composer.lock` |
 
-## Penulis
-
-Nama: _isi nama_ · NIM: _isi NIM_ · Mata kuliah: Konstruksi dan Evolusi Perangkat Lunak
