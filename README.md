@@ -320,4 +320,3 @@ curl -I http://localhost:8000/up      # header Server: Caddy menandakan FrankenP
 | Check tidak muncul di branch protection | workflow belum pernah jalan | jalankan CI sekali lewat Pull Request |
 | `npm ci` gagal di CI/Docker | `package-lock.json` belum di-commit | jalankan `npm install` lalu commit `package-lock.json` |
 | `composer install` gagal di CI/Docker | `composer.lock` belum di-commit | commit `backend/composer.lock` |
-
