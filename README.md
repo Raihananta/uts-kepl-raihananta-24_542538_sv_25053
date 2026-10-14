@@ -1,8 +1,5 @@
 # Aplikasi Catatan: Laravel + Vue.js + Docker + GitHub CI/CD
 
-![CI](https://github.com/<USERNAME>/<REPO>/actions/workflows/ci.yml/badge.svg)
-![CD](https://github.com/<USERNAME>/<REPO>/actions/workflows/deploy.yml/badge.svg)
-
 Proyek UTS mata kuliah **Konstruksi dan Evolusi Perangkat Lunak** (Semester Gasal 2026/2027).
 Satu sistem utuh: backend **Laravel** (REST API) dan frontend **Vue.js**, masing-masing berjalan
 di container **Docker**, disatukan dengan **Docker Compose**, dan dikelola di **GitHub** lengkap
