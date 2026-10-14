@@ -5,8 +5,6 @@ Satu sistem utuh: backend **Laravel** (REST API) dan frontend **Vue.js**, masing
 di container **Docker**, disatukan dengan **Docker Compose**, dan dikelola di **GitHub** lengkap
 dengan **CI/CD** (GitHub Actions + GitHub Container Registry).
 
-> Ganti `<USERNAME>` dan `<REPO>` pada badge di atas dengan akun dan nama repository kamu.
-
 ## Daftar isi
 
 1. [Fitur](#fitur)
