@@ -1,14 +1,9 @@
 # Aplikasi Catatan: Laravel + Vue.js + Docker + GitHub CI/CD
 
-![CI](https://github.com/<USERNAME>/<REPO>/actions/workflows/ci.yml/badge.svg)
-![CD](https://github.com/<USERNAME>/<REPO>/actions/workflows/deploy.yml/badge.svg)
-
 Proyek UTS mata kuliah **Konstruksi dan Evolusi Perangkat Lunak** (Semester Gasal 2026/2027).
 Satu sistem utuh: backend **Laravel** (REST API) dan frontend **Vue.js**, masing-masing berjalan
 di container **Docker**, disatukan dengan **Docker Compose**, dan dikelola di **GitHub** lengkap
 dengan **CI/CD** (GitHub Actions + GitHub Container Registry).
-
-> Ganti `<USERNAME>` dan `<REPO>` pada badge di atas dengan akun dan nama repository kamu.
 
 ## Daftar isi
 
@@ -325,7 +320,3 @@ curl -I http://localhost:8000/up      # header Server: Caddy menandakan FrankenP
 | Check tidak muncul di branch protection | workflow belum pernah jalan | jalankan CI sekali lewat Pull Request |
 | `npm ci` gagal di CI/Docker | `package-lock.json` belum di-commit | jalankan `npm install` lalu commit `package-lock.json` |
 | `composer install` gagal di CI/Docker | `composer.lock` belum di-commit | commit `backend/composer.lock` |
-
-## Penulis
-
-Nama: _isi nama_ · NIM: _isi NIM_ · Mata kuliah: Konstruksi dan Evolusi Perangkat Lunak
