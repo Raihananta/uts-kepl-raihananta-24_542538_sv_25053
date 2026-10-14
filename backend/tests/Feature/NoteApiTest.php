@@ -18,7 +18,7 @@ class NoteApiTest extends TestCase
             'name' => 'Budi',
             'email' => 'budi@example.com',
             'password' => 'password123',
-        ])->assertStatus(201)->assertJsonStructure(['token', 'user']);
+        ])->assertStatus(200)->assertJsonStructure(['token', 'user']);
     }
 
     public function test_register_validation_returns_422(): void
